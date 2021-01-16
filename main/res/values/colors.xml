@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="greyMoney">#5C5C5C</color>
+    <color name="BlueMinor">#FF3F51B5</color>
+    <color name="White">#F6F3F3</color>
+    <color name="LightOrange">#ffc400</color>
+    <color name="Pistache">#9fffe0</color>
+    <color name="Main">#87c197</color>
+    <color name="DarkMain">#F6F3F3</color>
+    <color name="MinorOrange">#F6F3F3</color>
+    <color name="MiddleMain">#9edcaf</color>
+</resources>

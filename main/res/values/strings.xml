@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Not Here</string>
+    <string name="to">TO..</string>
+    <string name="of">OF..</string>
+    <string name="meals">Meals</string>
+    <string name="groceries">Groceries</string>
+    <string name="transport">Transport</string>
+    <string name="goods">Goods&amp;Rent</string>
+    <string name="currency">currency</string>
+    <string name="start">Start</string>
+    <string name="a_man_who_does_not_imagine_does_not_grow_you_only_grow_when_you_are_not_here_north_african_proverb">"A man who does not imagine, does not grow…\nYou only grow when you are <font color='#FF000000'>Not Here </font> \n- North African Proverb</string>
+    <string name="pick_category">Pick a Category</string>
+    <string name="pick_a_city">Pick a City</string>
+    <string name="internet_error">try to :\n1- connect to the internet\n2- select a currency by clicking on the currency icon</string>
+</resources>

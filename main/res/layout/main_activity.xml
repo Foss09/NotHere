@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Main"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:text="@string/currency"
+        android:textColor="@color/DarkMain" />
+
+    <ImageButton
+        android:id="@+id/ibMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/Main"
+        app:srcCompat="@drawable/ic_baseline_monetization_on_24" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/writing"
+        android:text="@string/a_man_who_does_not_imagine_does_not_grow_you_only_grow_when_you_are_not_here_north_african_proverb"
+        android:textColor="@color/White"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/ibStart"
+        style="@android:style/Widget.Material.Light.Button"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/ripple"
+        android:backgroundTint="@color/DarkMain"
+        android:text="@string/start"
+        android:textColor="@color/Main" />
+
+</LinearLayout>
