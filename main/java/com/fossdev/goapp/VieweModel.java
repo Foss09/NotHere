@@ -95,6 +95,7 @@ public class VieweModel extends ViewModel {
                 scanner.useDelimiter("\\A");
                 JSONObject jsonString = new JSONObject(scanner.next());
                 JSONObject objy = jsonString.getJSONObject("conversion_rates");
+                ((HttpURLConnection) url.openConnection()).disconnect();
                 return Double.toString(objy.getDouble(strings[0]));
 
             } catch (MalformedURLException e) {
